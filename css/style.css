@@ -183,8 +183,8 @@ header{
   /*Req 10 Is it flex-end or am I just guessing?*/
   nav{
     padding: 30px 0px;
-    vertical-align: middle;
-    align-self: flex-end;
+    text-align: right;
+    align-self: center;
     /*Your code here:*/
   }
 
