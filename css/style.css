@@ -72,14 +72,14 @@ nav a:hover{
   -webkit-transition: top 1s ease-out;
   transition: top 1s ease-out;
   z-index: 1;
-  position: relative;
+  position: absolute;
   top: -50px; 
   /*Your code here*/
 }
 /*Req 3b*/
 /*Write selector/rule property to position the skip class element*/
 .skip a:focus{
-  position: absolute;
+  position: relative;
   top: 10px;
 }
 /*Req 4*/
@@ -183,8 +183,8 @@ header{
   /*Req 10 Is it flex-end or am I just guessing?*/
   nav{
     padding: 30px 0px;
-    text-align: right;
     align-self: center;
+    text-align: right;
     /*Your code here:*/
   }
 
