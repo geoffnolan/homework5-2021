@@ -167,7 +167,7 @@ header{
   background-color: rgba(255, 255, 255, .8);
   border: 10px solid black;
   padding: 30px;
-  text-align: center;
+  align-self: center;
   vertical-align: middle;
   /*Your code here:*/
 
@@ -183,14 +183,13 @@ header{
   /*Req 10 Is it flex-end or am I just guessing?*/
   nav{
     padding: 30px 0px;
-    align-items: center;
+    vertical-align: middle;
     align-self: flex-end;
     /*Your code here:*/
   }
 
   /*Req 11 Do i have 11-13 applying these rules?*/
   .container{
-    display:grid;
     grid-template-columns: 50px auto 500px auto 50px;
     grid-template-rows: 400px 425px 425px 400px;
     /*Your code here:*/
