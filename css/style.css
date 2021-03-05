@@ -25,7 +25,6 @@ h2{
 nav li{
   display:inline;
   padding-right:20px;
-
 }
 
 
@@ -92,6 +91,7 @@ nav a:hover{
 
 /*Req 5*/
 .container{
+  display: grid;
   grid-template-columns: 1fr 3fr 3fr 1fr;
   grid-template-rows: auto auto auto auto;
   grid-row-gap: 20px;
@@ -190,6 +190,7 @@ header{
 
   /*Req 11 Do i have 11-13 applying these rules?*/
   .container{
+    display: grid;
     grid-template-columns: 50px auto 500px auto 50px;
     grid-template-rows: 400px 425px 425px 400px;
     /*Your code here:*/
